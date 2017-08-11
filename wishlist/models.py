@@ -12,6 +12,7 @@ class Model(models.Model):
     city = models.CharField(max_length=30, blank=True)
     country = models.CharField(max_length=30)
 
+
 class CamSite(models.Model):
     site_name = models.CharField(max_length=30)
     username = models.CharField(max_length=30)
